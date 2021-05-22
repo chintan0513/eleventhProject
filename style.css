@@ -82,6 +82,7 @@ nav .btn:hover {
     width: 50%;
     left: 30%;
     position: relative;
+    margin-bottom: 150px;
 }
 .slider .links a{
     text-decoration: none;
