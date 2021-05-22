@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+nav .nav-link{
+    font-weight: 500;
+    color: black;
+    opacity: 1;
+    margin: 0px 15px;
+    text-transform: uppercase;
+}
+nav .nav-link:hover{
+    color: hsl(0, 94%, 66%);
+}
+nav .btn {
+    background: hsl(0, 94%, 66%);
+    color: white;
+    margin-left: 15px;
+    font-weight: 500;
+    padding: 5px 30px;
+}
+nav .btn:hover {
+    background: white;
+    color: hsl(0, 94%, 66%);
+    border: 1px solid hsl(0, 94%, 66%);
+}
+.content {
+    margin-top: 100px;
+}
+.content h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.content p {
+    color: hsl(229, 8%, 60%);
+    font-weight: 500;
+    font-size: large;
+    padding-right: 50px;
+}
+.row .chrome {
+    color: white;
+    background: hsl(231, 69%, 60%);
+    font-weight: 500;
+    margin: 20px 20px 0px 0px;
+    padding: 10px 15px;
+}
+.row .chrome:hover {
+    border: 3px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+    background: transparent;
+}
+.row .firefox {
+    color: black;
+    padding: 10px 15px;
+    background: #EFEFEF;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.row .firefox:hover {
+    border: 3px solid black;
+    background: transparent;
+    color: black;
+}
+.main h4 , .para h4 , .que h4{
+    font-weight: 500;
+    font-size: 2.1rem;
+    color: hsl(229, 31%, 21%);
+}
+.main p,.scnd p, .extnsn p , .que p, .accordion-body {
+    font-weight: 500;
+    color: hsl(229, 8%, 60%);
+}
+.accordion {
+    font-weight: 500;
+    width: 50%;
+    left: 30%;
+    position: relative;
+}
+.slider .links a{
+    text-decoration: none;
+    margin: 0px 50px 0px 20px;
+    color: hsl(229, 8%, 60%);
+    font-weight: 500;
+}
+.links a:hover {
+    color: hsl(0, 94%, 66%);
+}
+.slider .btn {
+    padding: 10px 20px;
+}
+.form {
+    padding-bottom: 50px;
+    font-weight: 500;
+    background: hsl(231, 69%, 60%);
+}
+.form .info{
+    padding: 50px 0px 25px 0px;
+}
+.info h3 {
+    padding: 0px 570px 0px 570px;
+}
+.form .mail{
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 12px;
+    margin-right: 10px;
+}
+.form .btn {
+    background: hsl(0, 94%, 66%);
+    color: white;
+}
+.form .btn:hover {
+    border: 3px solid hsl(0, 94%, 66%);
+    background: white;
+    color: hsl(0, 94%, 66%);
+}
+.footer {
+    background: black;
+    color: white;
+}
+.footer i {
+    font-size: 30px;
+    padding: 25px;
+    cursor: pointer;
+}
+i:hover {
+    color: hsl(0, 94%, 66%);
+}
+.footer a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin: 15px;
+    display: inline-flex;
+    justify-content: left;
+}
+.footer a:hover {
+    color: hsl(0, 94%, 66%);
+}
+@media only screen and (min-width:900px) {
+    nav {
+        margin: 50px 200px 0px 200px;
+    }
+    .content .row {
+        margin: 0px 190px;
+    }
+    .content h2 {
+        padding-top: 80px;
+    }
+    .main {
+        margin: 90px 190px 0px 190px;
+    }
+    .main .feature p {
+        padding: 0px 340px 0px 340px;
+    }
+    .slider .row {
+        margin: 0px 190px;
+    }
+    .para h4 {
+        padding-top: 80px;
+    }
+    .para {
+        display: none;
+        margin: 50px;
+    }
+    .para .scnd{
+        padding-left: 100px;
+    }
+    .para .scnd p{
+        margin: 20px 0px;
+    }
+    .main .extension p{
+        padding: 0px 400px 0px 400px;
+    }
+    .extnsn {
+        margin: 90px 190px 150px 190px;
+    }
+    .extnsn .intro p {
+        padding: 0px 340px 0px 340px;
+        margin-bottom: 50px;
+    }
+    .extnsn .row {
+        margin: 0px 190px;
+    }
+    .card .img-fluid{
+        padding: 20px 80px;
+    }
+    .card a:hover {
+        border: 3px solid hsl(231, 69%, 60%);
+        color: hsl(231, 69%, 60%);
+        background: transparent;
+    }
+    .que p{
+        padding: 0px 510px 0px 510px;
+        margin: 25px 0px 50px 0px;
+    }
+    .que .questn {
+        margin: 0px 190px;
+    }
+}
+@media only screen and (max-width:400px)  {
+
+}
